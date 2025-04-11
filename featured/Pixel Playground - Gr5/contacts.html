@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href= "general.css">
+    <link rel = "stylesheet" href= "abt.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Pixel Playground</title>
+</head>
+<style>
+
+.sub h1, .group h1 {
+text-align: center;
+color: rgb(255, 208, 0);
+text-shadow: 2px 2px 3px rgb(174, 0, 255);
+font-size: 35px;
+font-family: "Joystix";
+
+}
+
+.sub {
+
+text-align: center;
+color: white;
+text-shadow: 2px 2px 3px rgb(255, 0, 200);
+font-size: 20px;
+font-family: "Pixelify Sans", sans-serif;
+justify-items: center;
+margin: 20px;
+}
+
+.group {
+    border: 4px dotted rgb(238, 255, 0);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: 0 0 15px yellow;
+}
+.group p{
+    font-size: 30px;
+    margin: 20px;
+}
+
+.group p:hover {
+    font-size: 40px;
+    transition: 0.5s;
+}
+input {
+
+background-color: rgb(240, 240, 189); 
+border: 4px dotted yellow;
+font-family: "Pixelify Sans", sans-serif;
+color: black;
+border-radius: 30px;
+}
+
+button {
+background-color: rgb(240, 240, 189); 
+border: 4px dotted yellow;
+font-family: "Pixelify Sans", sans-serif;
+color: black;
+border-radius: 30px;
+}
+
+textarea {
+background-color: rgb(240, 240, 189); 
+border: 4px dotted yellow;
+font-family: "Pixelify Sans", sans-serif;
+color: rgb(184, 185, 128);
+border-radius: 15px;
+}
+
+button:hover {
+background-color: rgb(240, 189, 189); 
+border: 4px dotted rgb(255, 0, 0);
+font-family: "Pixelify Sans", sans-serif;
+border-radius: 30px;
+transform: scale(1.2);
+transition-duration: 0.5s;
+}
+
+input:focus{
+background-color: rgb(240, 189, 189); 
+border: 4px dotted rgb(255, 0, 0);
+font-family: "Pixelify Sans", sans-serif;
+border-radius: 30px;
+transform: scale(1.2);
+transition-duration: 0.5s;
+}
+
+textarea:focus {
+background-color: rgb(240, 189, 189); 
+border: 4px dotted rgb(255, 0, 0);
+font-family: "Pixelify Sans", sans-serif;
+transform: scale(1.2);
+transition-duration: 0.5s;
+color: black;
+}
+
+
+</style>
+
+<body>
+
+    
+
+    <header>
+        <a href = "Firstproj.html" class="close">X close</a>
+        <h1>Pixel Playground</h1>
+        <h2>Welcome to our website!</h2>
+
+        <nav>
+            <ul>
+                <li><a href = "home_page.html">Home</a></li>
+                <li><a href = "gallery.html">Games</a></li>
+                <li><a href = "about.html">About</a></li>
+                <li><a href = "scores.html">Hi-Scores</a></li>
+                <li class = "underline"><a href = "contacts.html">Contact Us</a></li>
+
+            </ul>  
+        </nav>
+
+
+    </header>
+
+    <main>
+        <div class = "group">
+            <h1>Meet the team behind Pixel Playground!</h1>
+            <p>Bayaborda, Darren R. - Project Manager<br></p>
+            <p> LLantino, Shane Ann - Information Architect <br></p>
+            <p>  Giray, Marry Jane L. - Content Manager <br></p>
+            <p>  Evangelista, Rohan Mon Samuel L. - Web Developer <br></p>
+            <p> Tolentino, Richmond Dave E. - UX/UI Designer <br></p>
+            
+        </div>
+        <div class = "border">
+
+<div class = "sub">
+    <h1>Contact us!</h1>
+    <form action="#">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="Proof">Subject</label><br>
+        <input type="text" if="subject" name="subject" required><br><br>
+
+        <label for="Textarea">Concerns:</label><br>
+        <textarea name="comments" cols="20" rows="4">Input your concerns here</textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</section>
+</div>
+</div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Pixel Playground</p>
+    </footer>
+
+   
+</body>
+</html>

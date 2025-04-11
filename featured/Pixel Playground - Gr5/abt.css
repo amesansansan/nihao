@@ -1,0 +1,181 @@
+p {
+
+    text-align: center;
+    margin-top: 10px;
+}
+
+main h2, .content h2 {
+
+color: white;
+text-shadow: 2px 2px 3px rgb(4, 0, 255);
+font-size: 24px;
+font-family: 'Joystix';
+text-decoration: underline;
+margin-bottom: 10px;
+margin-top: 20px;
+
+}
+
+main h2 {
+
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    color: red;
+}
+
+
+
+
+.content {
+
+    justify-items: center;
+    border: 1px solid rgb(3, 255, 3);
+    margin: 100px;
+    border-radius: 500px;
+}
+
+
+.content p {
+
+    margin-top: 10px;
+}
+
+.rt {
+
+    margin-bottom: 70px;
+    
+}
+
+#Kong, #Tekken, #Mario, #Tets, #Gala, #SpI, #PC, #Frog {
+    position: relative;
+    color: rgb(0, 0, 0); 
+}
+
+#Kong::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(image/don.png);
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px); 
+    opacity: 0.7; 
+    z-index: -1; 
+    border-radius: 500px;
+}
+
+#Tekken::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(image/te.png);
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px); 
+    opacity: 0.7; 
+    z-index: -1; 
+    border-radius: 500px;
+}
+
+#Mario::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(image/mar.png);
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px); 
+    opacity: 0.7; 
+    z-index: -1; 
+    border-radius: 500px;
+}
+
+#Tets::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(image/tetris.png);
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px); 
+    opacity: 0.7; 
+    z-index: -1; 
+    border-radius: 500px;
+}
+
+#Gala::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(image/gala.png);
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px); 
+    opacity: 0.7; 
+    z-index: -1; 
+    border-radius: 500px;
+}
+
+#SpI::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(image/s.png);
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px); 
+    opacity: 0.7; 
+    z-index: -1; 
+    border-radius: 500px;
+}
+
+#PC::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(image/pac.png);
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px); 
+    opacity: 0.7; 
+    z-index: -1; 
+    border-radius: 500px;
+}
+
+#Frog::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(image/f.png);
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px); 
+    opacity: 0.7; 
+    z-index: -1; 
+    border-radius: 500px;
+}

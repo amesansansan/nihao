@@ -1,0 +1,20 @@
+.go-back {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    color: yellow;
+    background: transparent;
+    border: 2px solid yellow;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.go-back:hover {
+    background-color: yellow;
+    color: black;
+}

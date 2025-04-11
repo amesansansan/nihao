@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="general.css" rel="stylesheet">
+    <link rel="stylesheet" href="start.css">
+    <title>Pixel Playground</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+        }
+        .retro-text {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 50px;
+            color: yellow;
+            margin-bottom: 20px;
+            text-align: center;
+            text-shadow: rgb(255, 0, 0) 0 0 15px white;
+        }
+        .retro-button {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 48px;
+            color: white;
+            background: red;
+            border: 8px solid white;
+            padding: 40px 80px;
+            cursor: pointer;
+            text-transform: uppercase;
+            box-shadow: 12px 12px 0 white;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .retro-button:hover {
+            box-shadow: 16px 16px 0 yellow;
+            background: darkred;
+        }
+        .retro-button:active {
+            box-shadow: 8px 8px 0 white;
+            transform: translate(8px, 8px);
+        }
+        .go-back {
+            margin-top: 20px;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 16px;
+            color: cyan;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="retro-text">PRESS BUTTON TO START</div>
+    <a href="home_page.html" class="retro-button">Click Me</a>
+    <a href="../../../works.html" class="go-back">GO BACK TO WORKS</a>
+</body>
+</html>

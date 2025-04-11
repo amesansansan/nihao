@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'ArcadeClassic';
+    src: url('fonts/ARCADECLASSIC.TTF') format('truetype');
+         
+  }
+  
+  @font-face {
+    font-family: 'Joystix';
+    src: url('fonts/joystix\ monospace.otf') format('opentype');
+         
+  }
+
+body {
+
+    background-image: url(https://lh4.googleusercontent.com/proxy/ooc5WuIqZlK1Lf48_CWFnxH38TtLPZk9vTb-ieegpKY39hbbMa2pgc8QOX7BtGzCV7PB7ZPBDsVvNeB3M6EsqRf0TOmJV5RiTh7XnzbUTX5sQ8SyQmRtRvrCkHHh8k7mXKQL2A8wMdfKSswLyChIP7b47KJxHKw-tLHUtfLOt8A);
+    
+    }
+
+    p {
+
+        color: white;
+        text-shadow: 2px 2px 3px rgb(255, 0, 200);
+        font-size: 24px;
+        font-family: "Pixelify Sans", sans-serif;
+    }
+
+    .underline {
+
+        text-decoration: solid underline white !important;
+    }
+
+    header h1, header h2{
+        margin: 0px;
+    
+        text-align: center;
+        padding: 30px;
+        color: white;
+        
+        }
+        
+    
+        header h2 {
+    
+        padding-top:0px;
+        font-family: "Pixelify Sans", sans-serif;
+        }
+    
+        header h1 {
+        
+        color: yellow;
+        text-shadow: 3px 3px 4px red;
+        padding-bottom: 0px;
+        font-family: "Press Start 2P", system-ui;
+        }
+    
+      
+        
+        header nav ul {
+        list-style: none;
+        
+        text-align: center;
+        margin: 0px;
+        border: 1px dotted;
+    
+        }
+    
+        header nav ul li{
+    
+        
+        
+        text-align: center;
+        font-size: 20px;
+        padding: 1px;
+     
+    
+        }
+
+        header nav ul li a {
+
+            color: white;
+        }
+    
+        @keyframes try {
+    
+            0% {font-family: 'Courier New', Courier, monospace;}
+            25% {font-family: "Press Start 2P", system-ui;}
+            50% {font-family: 'ArcadeClassic';}
+            75% {font-family: 'Joystix';}
+            100% {font-family: "Pixelify Sans", sans-serif; } 
+        }
+    
+        header nav ul li a:hover {
+    
+        animation: try 0.4s linear forwards;
+        transition-duration: 0.5s;
+        font-size: 25px;
+        font-weight: bolder;
+        color: white;
+        text-shadow: 2px 2px 3px red;
+    
+        }
+        
+        header nav ul li:hover {
+    
+        
+        transition-duration: 0.5s;
+        
+        }
+    
+        header nav ul li {
+        display: inline-block;
+        margin: 0 25px;
+        }
+        
+        .border {
+    
+        border: 3px dotted yellow ;
+        border-radius: 40px;
+        box-shadow: 0 0 15px yellow;
+        
+        }
+        header nav a {
+        display: block;
+        text-decoration: none;
+        font-size: 20px;
+        color: #2C3E50;
+        font-weight: bold;
+        padding: 5px;
+        }
+        footer {
+            border: 4px dotted red;
+            border-radius: 40px;
+            margin: 0px;
+            margin-top: 15px;
+            text-align: center;
+            padding: 10px;
+            box-shadow: 0 0 15px rgb(255, 0, 0);
+
+        }
+        
+        .close {
+
+            color: red;
+            font-family: 'joystix';
+            font-size: 20px;
+            font-weight: bolder;
+            text-align: start;
+            margin: 0px;
+            text-decoration: none;
+            border: 2px solid rgb(0, 0, 0);
+            padding: 1px;
+            background-color: rgb(59, 1, 1);
+            
+            }
+
+            .close:hover {
+
+                border: 2px solid rgb(255, 0, 0);
+            }
